@@ -1,0 +1,149 @@
+ body { 
+background-color: beige;
+font-family: ('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+;
+font-size: large;
+text-align: center;
+}
+
+h1 { color: darkolivegreen;
+font-size: 70px;
+font-family: 'Times New Roman', Times, serif;
+text-decoration: underline;
+}
+
+
+.Drinks,
+.Pastries,
+.BrewHaven,
+.About
+{
+    font-size: 35px; 
+
+}
+
+
+ p { font-size: larger;
+    font-style: normal;
+    color: black;
+text-align: center;
+}
+
+
+.drink-container {
+ /* border: red 2px solid;  */
+display: flex;
+justify-content: space-around;  
+}
+.drink {
+/* border: blue 2px solid; */
+   width: 30%; 
+}
+
+.pastries-container {
+display: flex;    
+justify-content: space-evenly;
+}
+.Pastries {
+width: 30%; 
+}
+
+.navbar {
+    background-color: grey;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px; 
+}
+
+.navbar .brewhaven {
+    font-size: 35px;
+    margin-right: auto;
+    text-decoration: underline;
+}
+
+.navbar a {
+    color: #333;
+    text-decoration: none;
+    margin: 0 30px; 
+}
+
+
+footer {
+    background-color: grey;
+    padding: 57px;
+}
+
+footer a {
+    color: #333;
+    text-decoration: none;
+}
+
+footer {
+    text-align: left;
+    margin: 50px;
+display: flex;
+justify-content: space-around;
+font-size: large;
+
+}
+
+
+.logo { 
+ width: 40%;   
+display: flex;
+justify-content: flex-start;
+}
+
+.menu { 
+ width: 35%;   
+    
+}
+
+
+
+.event-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+
+  .event-item {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc; 
+    padding-bottom: 20px; 
+  }
+  
+  .event-date {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .event-title {
+    margin-top: 5px;
+    font-size: 18px;
+    color: #555;
+  }
+  
+  .event-description {
+    margin-top: 5px;
+    color: #777;
+  }
+  
+  .event-item:hover { 
+    background-color: #f5f5f5; 
+    transition: background-color 0.3s ease;
+  }
+
+  .drink-item {
+    display: flex;
+    flex-direction:row; 
+    align-items: center; 
+    margin-bottom: 20px; 
+}
+
+.drink-item {
+    margin-top: 5px;
+    text-align: center; 
+}
